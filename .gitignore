@@ -1,0 +1,29 @@
+# MATLAB & Simulink autosave files
+*.asv
+*.m~
+*.slx.autosave
+*.mdl.autosave
+
+# MATLAB code generation & Simulink cache
+slprj/
+codegen/
+*.slxc
+
+# Compiled MEX files
+*.mex*
+*.mexa64
+*.mexw64
+
+# MATLAB session / temp files
+*.mat
+*.fig
+!sample_*.mat
+*.log
+
+# Project specific
+.SimulinkProject/
+_SimulinkProject/
+
+# OS specific
+.DS_Store
+Thumbs.db
