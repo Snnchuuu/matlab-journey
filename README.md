@@ -6,7 +6,7 @@ A structured, rigorous repository for mastering MATLAB programming, scientific c
 
 ## 📚 Curriculum & Modules
 
-- [ ] **01_Basics_And_Environment:** MATLAB desktop environment, Command Window vs Workspace, variables, data types, semicolons, and basic arithmetic.
+- [x] **01_Basics_And_Environment:** MATLAB desktop environment, Command Window vs Workspace, variables, data types, semicolons, and basic arithmetic.
 - [ ] **02_Vectors_And_Matrices:** Row/column vectors, matrix creation, colon operator (`:`), `linspace`, indexing, element-wise (`.*`, `./`, `.^`) vs matrix operations (`*`, `/`, `^`).
 - [ ] **03_Matrix_Manipulations_And_Linear_Algebra:** Concatenation, slicing, reshaping, transposing, determinants, inverses, eigenvalues, and solving linear systems ($Ax = b$).
 - [ ] **04_Flow_Control_And_Logic:** Relational and logical operators, `if-elseif-else`, `switch-case`, `for` and `while` loops, vectorization vs loops.
