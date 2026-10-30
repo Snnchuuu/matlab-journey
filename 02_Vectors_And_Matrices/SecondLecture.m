@@ -27,5 +27,62 @@
 %    - Dimension compatibility rules (Linear Algebra vs Array math)
 
 % 6. Basic Matrix Functions (Temel Matris Fonksiyonları)
-%    - size(), length(), numel()
-%    - sum(), mean(), max(), min() along dimensions
+
+
+%Row and column vectors
+v1 = [1, 2, 3]; %row vector
+v2 = [1; 2; 3]; %column vector
+
+% Transpose a row vector into a column vector
+v1Transposed = v1';
+v2Transposed = v2';
+
+disp(v1Transposed)
+disp(v2Transposed)
+
+%Vector generating techniques
+v3 = 0:2:10;
+disp(v3)
+v4 = linspace(0,10, 5);
+disp(v4)
+
+% 2D matrix creation and some special matrices
+matrixA = [1 2 3; 4 5 6; 7 8 9];
+disp(matrixA)
+zeroMatrix = zeros(3, 3);
+disp(zeroMatrix)
+oneMatrix = ones(2, 4);
+disp(oneMatrix)
+identityMatrix = eye(3);%identity matrix
+disp(identityMatrix)
+randomMatrix = rand(2, 3);
+disp(randomMatrix)
+
+% Indexing and slicing
+firstRow = matrixA(1, :);
+disp(firstRow)
+lastColumn = matrixA(:, end);
+disp(lastColumn)
+subMatrix = matrixA(1:2, 2:3);
+disp(subMatrix)
+
+% Element-wise and matrix operations
+matrixProduct = matrixA * identityMatrix;
+disp(matrixProduct)
+elementWiseSquare = matrixA .^ 2;
+disp(elementWiseSquare)
+elementWiseProduct = matrixA .* matrixA;
+disp(elementWiseProduct)
+
+% Basic matrix functions
+matrixSize = size(matrixA);
+disp(matrixSize)
+matrixLength = length(matrixA);%returns the length of largest array dimension !!!
+disp(matrixLength)
+elementCount = numel(matrixA);%number of array elements
+disp(elementCount)
+
+
+
+
+
